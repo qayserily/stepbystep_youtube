@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-08-08T20:36:04.043Z",
+        "start_timestamp": "2021-08-17T17:47:51.251Z",
         "line": 3,
-        "name": "Successful Login with Valid Credentials",
+        "name": "Validate google search in working",
         "description": "",
-        "id": "login;successful-login-with-valid-credentials",
+        "id": "feature-to-test-google-search-functionality;validate-google-search-in-working",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
@@ -16,7 +16,7 @@
               "status": "undefined"
             },
             "line": 4,
-            "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+            "name": "user is on google search page",
             "match": {},
             "keyword": "Given "
           },
@@ -25,34 +25,7 @@
               "status": "undefined"
             },
             "line": 5,
-            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "Click on Login",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "Page Title should be \"Dashboard / nopCommerce administration",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "User click on Log out link",
+            "name": "user enters a text in search box",
             "match": {},
             "keyword": "When "
           },
@@ -60,33 +33,24 @@
             "result": {
               "status": "undefined"
             },
-            "line": 9,
-            "name": "Page Title should be \"Your store. Login\"",
+            "line": 6,
+            "name": "user is navigated to search results",
             "match": {},
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10,
-            "name": "close browser",
-            "match": {},
-            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@wip"
+            "name": "@google"
           }
         ]
       }
     ],
-    "name": "Login",
+    "name": "feature to test google search functionality",
     "description": "",
-    "id": "login",
+    "id": "feature-to-test-google-search-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
+    "uri": "file:src/test/resources/features/GoogleSearch.feature",
     "tags": []
   }
 ]

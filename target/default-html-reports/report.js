@@ -1,21 +1,21 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/GoogleSearch.feature");
 formatter.feature({
-  "name": "Login",
+  "name": "feature to test google search functionality",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Successful Login with Valid Credentials",
+  "name": "Validate google search in working",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@wip"
+      "name": "@google"
     }
   ]
 });
 formatter.step({
-  "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+  "name": "user is on google search page",
   "keyword": "Given "
 });
 formatter.match({});
@@ -23,31 +23,7 @@ formatter.result({
   "status": "undefined"
 });
 formatter.step({
-  "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "Click on Login",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "Page Title should be \"Dashboard / nopCommerce administration",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "User click on Log out link",
+  "name": "user enters a text in search box",
   "keyword": "When "
 });
 formatter.match({});
@@ -55,16 +31,8 @@ formatter.result({
   "status": "undefined"
 });
 formatter.step({
-  "name": "Page Title should be \"Your store. Login\"",
+  "name": "user is navigated to search results",
   "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "close browser",
-  "keyword": "And "
 });
 formatter.match({});
 formatter.result({
